@@ -58,10 +58,10 @@ Commit code?
 
 Essential stuff to know.
 
-# PHP 5.3
-# Symfony 2 as the polling engine
-# Git hosted on Git hub for source control
-# Vanilla forum as the discussion engine
+* PHP 5.3
+* Symfony 2 as the polling engine
+* Git hosted on Git hub for source control
+* Vanilla forum as the discussion engine
 
 Commit your proposal on the https://github.com/siegfried1e/The-G.O.D-project on the develop
 branch.
