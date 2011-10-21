@@ -1,4 +1,3 @@
-
                                              TOUS UNIS, NOUS POUVONS CHANGER LE MONDE
                                                   ALL UNITED, WE CAN CHANGE THE WORLD
 
@@ -21,17 +20,22 @@ construction workers, of all nationalities, your children’s teachers, atheists
 christians, muslims, buddhists, jedis and artists."
 
 This project is done by passionnate people who happens to be web developpers. We
-use open-source software and want this to happen.
+use open-source software and want to build a tool to get people opinion on issues
+that matters to them. 
 
-devLAB Montreal is a small organization of web developpers who are passionnate about
-their craft and we provide the infrastructure and the maintenance of the online system.
+This is meant to become non-centralized. Cities could start their polling sessions
+by themselves, results grids will be populated. Moderator will populate and collect
+the questions and the suggestions.
+
+devLAB Montreal is the initiator group and we welcome any web developer who want
+to contribute we, at devLAB Montréal, will take care of the hosting and the code base.
 
 
 
 
 
 
-How this will work?
+How this will work? Technically.
 ========================
 
 This is the first iteration.
@@ -47,6 +51,7 @@ questions from the forum.
 
 
 
+
 WHAT WE NEED?
 ========================
 * Suggest the most important issue you want to fix
@@ -56,10 +61,12 @@ WHAT WE NEED?
 
 
 
+
 One of the organizers of Occupy {yourcity}?
 ========================
 
-Drop us an email at board@evocatio.com give us your vanilla user id you just created.
+Drop us an email at board@evocatio.com give us your vanilla user id on 
+http://godproject.devlabmtl.org/discussions/ you created.
 
 
 
@@ -67,14 +74,14 @@ Drop us an email at board@evocatio.com give us your vanilla user id you just cre
 Commit code?
 ========================
 
-Essential stuff to know.
+You code? In what is this built on.
 
 * PHP 5.3
 * Symfony 2 as the polling engine
 * Git hosted on Git hub for source control
 * Vanilla forum as the discussion engine
 
-Commit your proposal on the https://github.com/siegfried1e/The-G.O.D-project on the develop
+Commit your code proposal on the https://github.com/siegfried1e/The-G.O.D-project on the develop
 branch.
 
 Official version is hosted on http://godproject.devlabmtl.org/, we take care of the deployment
@@ -83,6 +90,9 @@ and scaling issues whenever they come.
 Proposing new questions and solutions is supported on the forum http://godproject.devlabmtl.org/discussions/
 
 You need to know about Git (http://progit.org/book/), and Symfony 2 (http://symfony.com/).
+
+It's too early in the project to explain how technically we will have a distributed database 
+system, but let's start somewhere, the wiki is there to sketch the concepts and the model.
 
 Go ahead!
 
