@@ -41,10 +41,17 @@ The whole idea is to take action and propose viable solutions to real society pr
 The application ask questions and suggests two solutions, voter choose his favourite.
 The application calculate the most favourited solution.
 
-If you want to propose new solutions, the forum at http://devlabmtl.org/vanilla/ will take
+If you want to propose new solutions, the forum at http://godproject.devlabmtl.org/discussions/ will take
 your suggestions, people can add comments and at some point, moderators could modify
 questions from the forum.
 
+
+
+WHAT WE NEED?
+========================
+* Suggest the most important issue you want to fix
+* Propose three to five viable (short) solutions (per issue)
+* Discuss about them on http://godproject.devlabmtl.org/discussions/
 
 
 
