@@ -3,6 +3,9 @@
                                                   ALL UNITED, WE CAN CHANGE THE WORLD
 
 
+(?) Version française plus bas...
+
+
 
 The G.O.D. Project
 ========================
@@ -74,3 +77,31 @@ Proposing new questions and solutions is supported on the forum http://devlabmtl
 You need to know about Git (http://progit.org/book/), and Symfony 2 (http://symfony.com/).
 
 Go ahead!
+
+
+
+Help with Quality?
+========================
+
+Explain all found bugs on our bug tracker:
+
+https://github.com/siegfried1e/The-G.O.D-project/issues
+
+An efficient way to do so:
+* Subject is a 10 words summary of what failed
+* Description should contain
+ * Steps to reproduce
+ * Web address where the problem was found
+
+
+
+
+----
+
+
+
+
+Le G.O.D. Project
+========================
+
+TODO.
