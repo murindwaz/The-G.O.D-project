@@ -52,6 +52,7 @@ WHAT WE NEED?
 * Suggest the most important issue you want to fix
 * Propose three to five viable (short) solutions (per issue)
 * Discuss about them on http://godproject.devlabmtl.org/discussions/
+* Let us do the rest.
 
 
 
@@ -79,7 +80,7 @@ branch.
 Official version is hosted on http://godproject.devlabmtl.org/, we take care of the deployment
 and scaling issues whenever they come.
 
-Proposing new questions and solutions is supported on the forum http://devlabmtl.org/vanilla/
+Proposing new questions and solutions is supported on the forum http://godproject.devlabmtl.org/discussions/
 
 You need to know about Git (http://progit.org/book/), and Symfony 2 (http://symfony.com/).
 
