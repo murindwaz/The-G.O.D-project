@@ -11,6 +11,9 @@ The G.O.D. Project
 
 Greater Organism Design.
 
+As in, how to be able to get everybody on who an issue matter to give their opinion
+and let the governement, our executives, take **Informed** actions.  For the people.
+
 We are the 99% of the world. How come we only do choices once per very few often and
 only that small set of people takes all the decisions.
 
