@@ -109,10 +109,11 @@ Explain all found bugs on our bug tracker:
 https://github.com/siegfried1e/The-G.O.D-project/issues
 
 An efficient way to do so:
+
 * Subject is a 10 words summary of what failed
 * Description should contain
- * Steps to reproduce
- * Web address where the problem was found
+* Steps to reproduce
+* Web address where the problem was found
 
 
 
