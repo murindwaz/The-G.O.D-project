@@ -4,77 +4,63 @@
 
 (?) Version française plus bas...
 
+The G.O.D. Project - Introduction
+=================================
 
+G.O.D stands for Greater Organism Design.
 
-The G.O.D. Project
-========================
+Problem
+-------
 
-Greater Organism Design.
+We are 99% of the whole world. How come we do choices once a blue moon and then let only that small amount of people to make all the decisions? It's time to awake social consciousness.
 
-As in, how to be able to get everybody on who an issue matter to give their opinion
-and let the governement, our executives, take **Informed** actions.  For the people.
+Proposed Solution
+-----------------
 
-We are the 99% of the world. How come we only do choices once per very few often and
-only that small set of people takes all the decisions.
-
-Quoting occupymontreal.tk "We are students, workers, unemployed, families, young,
-retired, public service employees, lawyers, nurses, grand-parents, security gards,
-construction workers, of all nationalities, your children’s teachers, atheists,
-christians, muslims, buddhists, jedis and artists."
-
-This project is done by passionnate people who happens to be web developpers. We
-use open-source software and want to build a tool to get people opinion on issues
-that matters to them. 
+G.O.D. main purpose it's to be able to get everybody's issue and let the government, our executives, take **Informed** actions. For the time being this might evolve to something other than weblog, social network or forum.
 
 This is meant to become non-centralized. Cities could start their polling sessions
 by themselves, results grids will be populated. Moderator will populate and collect
 the questions and the suggestions.
 
-devLAB Montreal is the initiator group and we welcome any web developer who want
+Quoting occupymontreal.tk "We are students, workers, unemployed, families, young,
+retired, public service employees, lawyers, nurses, grand-parents, security guards,
+construction workers, of all nationalities, your children’s teachers, atheists,
+christians, muslims, buddhists, jedis and artists."
+
+Contributors
+------------
+
+This project is done by passionate people who happens to be web developers. We
+use open-source software to build a tool to get people's opinion on issues
+that matters to them.
+
+**devLAB Montreal** is the initiator group and we welcome any web developer who want
 to contribute we, at devLAB Montréal, will take care of the hosting and the code base.
 
-
-
-
-
-
-How this will work? Technically.
+How this will work? Technically - Overview
 ========================
 
-This is the first iteration.
+This is the first iteration, so don't expect too much about it.
 
-The whole idea is to take action and propose viable solutions to real society problems.
+Since the whole idea is to take action and propose viable solutions to real society problems we thought that, basically:
 
-The application ask questions and suggests two solutions, voter choose his favourite.
-The application calculate the most favourited solution.
+* The application will ask questions and suggests two solutions, voter choose his favorite.
+* The application calculate the most favorite solution.
 
 If you want to propose new solutions, the forum at http://godproject.devlabmtl.org/discussions/ will take
 your suggestions, people can add comments and at some point, moderators could modify
 questions from the forum.
 
-
-
-
-WHAT WE NEED?
+WHAT WE NEED? - Ideas, concepts
 ========================
+
 * Suggest the most important issue you want to fix
 * Propose three to five viable (short) solutions (per issue)
 * Discuss about them on http://godproject.devlabmtl.org/discussions/
 * Let us do the rest.
 
-
-
-
-One of the organizers of Occupy {yourcity}?
-========================
-
-Drop us an email at board@evocatio.com give us your vanilla user id on 
-http://godproject.devlabmtl.org/discussions/ you created.
-
-
-
-
-Commit code?
+Commit code? - How to contribute
 ========================
 
 You code? In what is this built on.
@@ -99,8 +85,6 @@ system, but let's start somewhere, the wiki is there to sketch the concepts and 
 
 Go ahead!
 
-
-
 Help with Quality?
 ========================
 
@@ -111,17 +95,17 @@ https://github.com/siegfried1e/The-G.O.D-project/issues
 An efficient way to do so:
 
 * Subject is a 10 words summary of what failed
-* Description should contain
+* Description should contain short description of the bug
 * Steps to reproduce
 * Web address where the problem was found
 
+One of the organizers of Occupy {yourcity}?
+========================
 
-
+Drop us an email at board@evocatio.com give us your vanilla user id on 
+http://godproject.devlabmtl.org/discussions/ you created.
 
 ----
-
-
-
 
 Le G.O.D. Project
 ========================
