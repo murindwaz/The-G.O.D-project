@@ -1,0 +1,14 @@
+/* ÉQUIPE */
+    Manitou: Stéphan Champagne
+    Contact: sig@stephanchampagne.com
+    Twitter: @stephchampagne
+
+
+        ...
+
+
+/* SITE */
+    Version :
+    Doctype:HTML5
+        Technologies: Symfony 2.x, PHP 5.3, Compass 1.11
+    IDE:Google Chrome, Netbeans 6.9, GEdit, Compass/SASS
