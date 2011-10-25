@@ -7,30 +7,20 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  *
  * @ORM\Entity
- * @ORM\Table(name="question")
+ * @ORM\Table(name="reponse")
  */
-class Question {
-
-    /**
-     * @ORM\ManyToMany(targetEntity="Reponse"),
-     * @ORM\joinColumns={@JoinColumn(name="reponse_id", referencedColumnName="id")},
-     * @ORM\inverseJoinColumns={@JoinColumn(name="question_id", referencedColumnName="id")}
-     */
-    
-    public function __construct() {
-        $this->questions = new Doctrine\Common\Collections\ArrayCollection();
-        parent::__construct();
-    }
+class Reponse {
 
     /**
      * @ORM\Id
-     * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO")
-     *      
+     * @ORM\Column(type="integer"),
+     * @ORM\GeneratedValue(strategy="AUTO"),
      */
     protected $id;
     /**
-     * @ORM\Column(type="text")
+     * @var text $text
+     *
+     * @ORM\Column(name="text", type="text")
      */
     protected $text;
 

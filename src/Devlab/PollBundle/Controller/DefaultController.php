@@ -15,14 +15,17 @@ class DefaultController extends Controller {
      * @Template()
      */
     public function indexAction() {
-        $question = new Question();
-        $question->setText("Ceci est le premier essai");
+//        $question = new Question();
+        $question = $this->getDoctrine()
+                ->getRepository("DevlabPollBundle:Question")
+                ->find(13);
+//        $question->setText("Ceci est le premier essai");
 
         $form = $this->createFormBuilder($question)
                         ->add("text", "text")
                         ->getForm();
 
-        return array('name' => "test", "form" => $form->createView());
+        return array('name' => $question->getText(), "form" => $form->createView());
     }
 
     /**
