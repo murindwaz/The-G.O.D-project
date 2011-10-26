@@ -111,7 +111,7 @@ http://godproject.devlabmtl.org/discussions/ you created.
 
 
 
----
+***
 
 
 Le projet G.O.D.
@@ -128,12 +128,11 @@ Faire des instances gouvernementales un éxécutif plutôt que des instances dé
 
 Motivations:
 ========================
- * Le système actuel est déficient et non adapté à l'évolution de la société autant
-au point de vue humain que techologique.
+* Le système actuel est déficient et non adapté à l'évolution de la société autant au point de vue humain que techologique.
 
 **Plus précisément:**
- * Vieux système:
- * On nous demande de nous prononcer une seule fois pour mettre en place des personnes qui vont par la suite nous représenter dans un ensemble de décisions sans vraiment avoir à nous reconsulté.
+* Vieux système:
+* On nous demande de nous prononcer une seule fois pour mettre en place des personnes qui vont par la suite nous représenter dans un ensemble de décisions sans vraiment avoir à nous reconsulté.
 
 
 Pourquoi ?
@@ -152,14 +151,14 @@ Ai-je besoin de mentionner ?
 
 Notre solution:
 ========================
-Créer un système de consultation social pour :
-1.    Énumérer des problèmes,
-2.    Énumérer des solutions, nouvelles ou existantes,
-3.    Déterminer la meilleur,
-4.    Si plusieurs sont au même niveau,
-4.1.    Combiné les solutions en de nouvelles proposition,
-4.2.    retour à 3,
-5.    Proposer des actions pour mettre en place la solution,
+**Créer un système de consultation social pour:**
+1.  Énumérer des problèmes
+2.  Énumérer des solutions, nouvelles ou existantes
+3.  Déterminer la meilleur
+4.  Si plusieurs sont au même niveau
+    4.1.  Combiné les solutions en de nouvelles proposition
+    4.2.  retour à 3
+5.  Proposer des actions pour mettre en place la solution
 
 **Techniquement:**
 * À l'aide d'un forum énuméré les problèmes,
