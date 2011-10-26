@@ -148,6 +148,7 @@ les gens mal intentionnés et le crime organisé.
 Résultat escompté:
 ========================
 Ai-je besoin de mentionner ?
+
 * Des gens assoiffés de pouvoir étudient le système et se positionne dans des rôles décisionnels
 stratégiques leurs donnant accès aux ressources de la communauté,
 * Le système leurs permet même lorsqu'ils sont mis en question de créer de nouvelles lois qui
@@ -170,6 +171,7 @@ Notre solution:
 5. Proposer des actions pour mettre en place la solution
 
 **Techniquement:**
+
 * À l'aide d'un forum (http://godproject.devlabmtl.org/discussions/) énumérer les problèmes,
 * Permettre un vote sur les priorités,
 * Pour les prioritaires, énumérer des solutions concrètes, envisageable rapidement,
