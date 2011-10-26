@@ -152,13 +152,14 @@ Ai-je besoin de mentionner ?
 Notre solution:
 ========================
 **Créer un système de consultation social pour:**
-1.  Énumérer des problèmes
-2.  Énumérer des solutions, nouvelles ou existantes
-3.  Déterminer la meilleur
-4.  Si plusieurs sont au même niveau
+
+1. Énumérer des problèmes
+2. Énumérer des solutions, nouvelles ou existantes
+3. Déterminer la meilleur
+4. Si plusieurs sont au même niveau
     4.1.  Combiné les solutions en de nouvelles proposition
     4.2.  retour à 3
-5.  Proposer des actions pour mettre en place la solution
+5. Proposer des actions pour mettre en place la solution
 
 **Techniquement:**
 * À l'aide d'un forum énuméré les problèmes,
