@@ -106,7 +106,7 @@ An efficient way to do so:
 One of the organizers of Occupy {yourcity}?
 ========================
 
-Drop us an email at board@evocatio.com give us your vanilla user id on 
+Drop us an email at board@devlabmtl.org give us your vanilla user id on
 http://godproject.devlabmtl.org/discussions/ you created.
 
 
@@ -145,27 +145,27 @@ contrôle de cette information étant entre les mains de corporations, la recett
 Résultat:
 ========================
 Ai-je besoin de mentionner ?
- * Des gens assoiffés de pouvoir étudient le système et se positionne dans des rôles décisionnels stratégiques leurs donnant accès aux ressources de la communauté,
- * Le système leurs permet même lorsqu'ils sont mis en question de créer de nouvelles lois qui ne les obligent pas de répondre de leurs actions,
- * Comme les demandes de la communauté sont nombreuses et que le système n'est pas fait pour réagir rapidement, quand les millions sont partis il est trop tard pour réagir, et les gens en pouvoir au moment des actes ne sont plus en poste, donc plus responsabilisé.
+* Des gens assoiffés de pouvoir étudient le système et se positionne dans des rôles décisionnels stratégiques leurs donnant accès aux ressources de la communauté,
+* Le système leurs permet même lorsqu'ils sont mis en question de créer de nouvelles lois qui ne les obligent pas de répondre de leurs actions,
+* Comme les demandes de la communauté sont nombreuses et que le système n'est pas fait pour réagir rapidement, quand les millions sont partis il est trop tard pour réagir, et les gens en pouvoir au moment des actes ne sont plus en poste, donc plus responsabilisé.
 
 
 Notre solution:
 ========================
 Créer un système de consultation social pour :
-1.  Énumérer des problèmes,
-2.  Énumérer des solutions, nouvelles ou existantes,
-3.  Déterminer la meilleur,
-4.  Si plusieurs sont au même niveau,
-4.1. Combiné les solutions en de nouvelles proposition,
-4.2. retour à 3,
-5- Proposer des actions pour mettre en place la solution,
+1.    Énumérer des problèmes,
+2.    Énumérer des solutions, nouvelles ou existantes,
+3.    Déterminer la meilleur,
+4.    Si plusieurs sont au même niveau,
+4.1.    Combiné les solutions en de nouvelles proposition,
+4.2.    retour à 3,
+5.    Proposer des actions pour mettre en place la solution,
 
 **Techniquement:**
- * À l'aide d'un forum énuméré les problèmes,
- * Permettre un vote sur les priorités,
- * Pour les prioritaires, énuméré des solutions concrète, envisageable rapidement,
- * Placer les questions avec 3 a 5 solutions dans notre système de consultation:
- * Mettre en comparaison les solutions (préférez-vous solution 1 ou 2),
- * Rendre le système de questionnement simple, disponible et rapide,
- * Publier les résultats,
+* À l'aide d'un forum énuméré les problèmes,
+* Permettre un vote sur les priorités,
+* Pour les prioritaires, énuméré des solutions concrète, envisageable rapidement,
+* Placer les questions avec 3 a 5 solutions dans notre système de consultation:
+* Mettre en comparaison les solutions (préférez-vous solution 1 ou 2),
+* Rendre le système de questionnement simple, disponible et rapide,
+* Publier les résultats,
