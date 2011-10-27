@@ -1,7 +1,7 @@
 <?php
 
 namespace Devlab\PollBundle\Entity;
-
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -11,15 +11,16 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Question {
 
+
+
     /**
      * @ORM\ManyToMany(targetEntity="Reponse"),
-     * @ORM\joinColumns={@JoinColumn(name="reponse_id", referencedColumnName="id")},
-     * @ORM\inverseJoinColumns={@JoinColumn(name="question_id", referencedColumnName="id")}
      */
-    
+    protected $reponses;
+
+
     public function __construct() {
-        $this->questions = new Doctrine\Common\Collections\ArrayCollection();
-        parent::__construct();
+        $this->reponses = new ArrayCollection();
     }
 
     /**
@@ -61,4 +62,24 @@ class Question {
         return $this->text;
     }
 
+
+    /**
+     * Add reponses
+     *
+     * @param Devlab\PollBundle\Entity\Reponse $reponses
+     */
+    public function addReponse(\Devlab\PollBundle\Entity\Reponse $reponses)
+    {
+        $this->reponses[] = $reponses;
+    }
+
+    /**
+     * Get reponses
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getReponses()
+    {
+        return $this->reponses;
+    }
 }

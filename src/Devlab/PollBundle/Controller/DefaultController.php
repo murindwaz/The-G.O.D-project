@@ -15,7 +15,7 @@ class DefaultController extends Controller {
      * @Template()
      */
     public function indexAction() {
-//        $question = new Question();
+        $question = new Question();
         $question = $this->getDoctrine()
                 ->getRepository("DevlabPollBundle:Question")
                 ->find(13);
