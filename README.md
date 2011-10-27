@@ -10,6 +10,7 @@ The G.O.D. Project - Introduction
 G.O.D stands for Greater Organism Design.
 
 
+
 Problem
 -------
 
@@ -20,7 +21,19 @@ social consciousness.
 
 Objective:
 ---------
-Faire des instances gouvernementales un éxécutif plutôt que des instances décisionnelles.
+Transorm governement into an executive and use the people opinion as the decision maker
+
+
+
+Motivations:
+------------
+
+The actual system is not taking into account the evolution of the technology and its
+population true concerns
+
+**More precisely** we are asked to give our opinion only once in a few time to put
+people who should represent us and then takes decisions without really asking after.
+
 
 
 Proposed Solution
@@ -41,8 +54,38 @@ christians, muslims, buddhists, jedis and artists."
 
 
 
-Contributors
-------------
+Why?
+----
+
+TODO
+
+
+
+Expected outcome:
+-----------------
+
+TODO
+
+
+
+How this will work? Technically - Overview
+------------------------------------------
+
+This is the first iteration, so don't expect too much about it.
+
+Since the whole idea is to take action and propose viable solutions to real society problems we thought that, basically:
+
+* The application will ask questions and suggests two solutions, voter choose his favorite.
+* The application calculate the most favorite solution.
+
+If you want to propose new solutions, the forum at http://godproject.devlabmtl.org/discussions/ will take
+your suggestions, people can add comments and at some point, moderators could modify
+questions from the forum.
+
+
+
+Contribute
+----------
 
 This project is done by passionate people who happens to be web developers. We
 use open-source software to build a tool to get people's opinion on issues
@@ -60,20 +103,6 @@ It's too early in the project to explain how technically we will have a distribu
 system, but let's start somewhere, the wiki is there to sketch the concepts and the model.
 
 
-
-How this will work? Technically - Overview
-------------------------------------------
-
-This is the first iteration, so don't expect too much about it.
-
-Since the whole idea is to take action and propose viable solutions to real society problems we thought that, basically:
-
-* The application will ask questions and suggests two solutions, voter choose his favorite.
-* The application calculate the most favorite solution.
-
-If you want to propose new solutions, the forum at http://godproject.devlabmtl.org/discussions/ will take
-your suggestions, people can add comments and at some point, moderators could modify
-questions from the forum.
 
 
 
@@ -127,7 +156,11 @@ http://godproject.devlabmtl.org/discussions/ you created.
 
 
 
-***
+
+
+* * *
+
+
 
 
 Le projet G.O.D. - Introduction
@@ -255,3 +288,18 @@ Faites une «Fork» et jouez avec le code a partir de la branche «develop» à 
 https://github.com/siegfried1e/The-G.O.D-project
 
 Vous devez évidemment connaître un peu les bases de Git (http://progit.org/book/), de PHP et de Symfony 2 (http://symfony.com/).
+
+
+
+Aider avec la qualité?
+----------------------
+
+TODO
+
+
+
+Vous êtes un des membres du commité dans «Occupy {votre ville}»?
+----------------------------------------------------------------
+
+Prendre contact avec nous a board@devlabmtl.org si vous voulez qu'on déploie une
+version spécifique a votre région.
