@@ -1,14 +1,26 @@
-Let me know {{ name }}!
-{% if app.session.hasFlash('notice') %}
-    <div class="flash-notice">
-        {{ app.session.flash('notice') }}
-    </div>
-{% endif %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+	{% if app.session.hasFlash('notice') %}
+	    <div class="flash-notice">
+	        {{ app.session.flash('notice') }}
+	    </div>
+	{% endif %}
 
+        <h1>{{ view_name }}</h1>
+		<form action="{{ path('devlab_poll_default_create') }}" method="post" {{ form_enctype(form) }}>
+		    {{ form_widget(form) }}
 
+		    <input type="submit" />
+		</form>
 
-<form action="{{ path('devlab_poll_default_create') }}" method="post" {{ form_enctype(form) }}>
-    {{ form_widget(form) }}
-
-    <input type="submit" />
-</form>
+        <ul id="navigation">
+            {% for item in questions %}
+                <li>{{ item.text }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
