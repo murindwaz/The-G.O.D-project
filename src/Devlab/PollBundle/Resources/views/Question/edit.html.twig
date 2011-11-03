@@ -1,5 +1,5 @@
 <h1>Question edit</h1>
-
+<link href="{{ asset('bundles/devlabpoll/css/base.css') }}" type="text/css" rel="stylesheet" />
 <form action="{{ path('question_update', { 'id': entity.id }) }}" method="post" {{ form_enctype(edit_form) }}>
     {{ form_widget(edit_form) }}
     <p>
