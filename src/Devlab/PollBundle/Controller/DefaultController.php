@@ -11,14 +11,14 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller {
 
     /**
-     * @Route("/question")
+     * @Route("/questiona")
      * @Template()
      */
     public function indexAction() {
         $question = new Question();
         $question = $this->getDoctrine()
                 ->getRepository("DevlabPollBundle:Question")
-                ->find(13);
+                ->find(1);
 //        $question->setText("Ceci est le premier essai");
 
         $form = $this->createFormBuilder($question)
@@ -29,7 +29,7 @@ class DefaultController extends Controller {
     }
 
     /**
-     * @Route("/question/new")
+     * @Route("/questiona/new")
      * @Template()
      */
     public function newAction() {
@@ -43,7 +43,7 @@ class DefaultController extends Controller {
     }
 
     /**
-     * @Route("/question/create")
+     * @Route("/questiona/create")
      * @Template()
      */
     public function createAction(Request $request) {

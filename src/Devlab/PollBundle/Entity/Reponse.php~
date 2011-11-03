@@ -51,4 +51,11 @@ class Reponse {
         return $this->text;
     }
 
+    /**
+     * toString magic method
+     * @return $this->text
+     */
+    public function __toString() {
+        return $this->text. " " . $this->id;
+    }
 }
