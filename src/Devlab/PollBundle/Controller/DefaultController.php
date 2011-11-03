@@ -25,7 +25,7 @@ class DefaultController extends Controller {
                         ->add("text", "text")
                         ->getForm();
 
-        return array('name' => $question->getText(), "form" => $form->createView());
+        return array('name' => "question->getText()", "form" => $form->createView());
     }
 
     /**
