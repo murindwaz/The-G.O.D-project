@@ -1,0 +1,22 @@
+<h1>Question creation</h1>
+<script src="{{ asset('bundles/devlabpoll/js/base.js') }}"></script>
+
+<form action="{{ path('question_create') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <p>
+        <button type="submit">Create</button>
+    </p>
+<div id="tempdiv"></div>
+</form>
+
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('question') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+
+<a href="javascript:void(0);" onclick="javascript:addAnItem('tempdiv','devlab_pollbundle_questiontype_reponses')">Add</a>
+</li>
+</ul>

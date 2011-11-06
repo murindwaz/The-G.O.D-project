@@ -14,7 +14,7 @@ class Question {
 
 
     /**
-     * @ORM\ManyToMany(targetEntity="Reponse"),
+     * @ORM\ManyToMany(targetEntity="Reponse", cascade={"persist"}),
      */
     protected $reponses;
 
@@ -63,6 +63,8 @@ class Question {
     }
 
 
+
+
     /**
      * Add reponses
      *
@@ -81,5 +83,15 @@ class Question {
     public function getReponses()
     {
         return $this->reponses;
+    }
+
+    /**
+     * Set reponses
+     *
+     * @param ArrayCollection
+     */
+    public function setReponses($reponsesCollection)
+    {
+        $this->reponses = $reponsesCollection;
     }
 }

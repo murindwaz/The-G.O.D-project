@@ -18,14 +18,22 @@ class DefaultController extends Controller {
         $question = new Question();
         $question = $this->getDoctrine()
                 ->getRepository("DevlabPollBundle:Question")
+<<<<<<< HEAD
                 ->findAll();
+=======
+                ->find(1);
+>>>>>>> 15982bbfc73fb4ddf1fd6a8f30e6435a9dbadf4b
 //        $question->setText("Ceci est le premier essai");
 
         $form = $this->createFormBuilder($question)
                         ->add("text", "text")
                         ->getForm();
 
+<<<<<<< HEAD
+        return array('title' => 'Questions', 'view_name' => 'Questions', 'questions' => $question, "form" => $form->createView());
+=======
         return array('name' => "question->getText()", "form" => $form->createView());
+>>>>>>> 15982bbfc73fb4ddf1fd6a8f30e6435a9dbadf4b
     }
 
     /**

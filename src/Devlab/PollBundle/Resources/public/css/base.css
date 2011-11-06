@@ -1,0 +1,19 @@
+/* 
+    Document   : base
+    Created on : 2-Nov-2011, 9:50:57 PM
+    Author     : themaster
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+/*div {
+    background-color: blue;
+}*/
