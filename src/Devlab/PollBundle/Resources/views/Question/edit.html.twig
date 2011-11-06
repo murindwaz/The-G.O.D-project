@@ -1,7 +1,9 @@
 <h1>Question edit</h1>
 <link href="{{ asset('bundles/devlabpoll/css/base.css') }}" type="text/css" rel="stylesheet" />
+<script src="{{ asset('bundles/devlabpoll/js/base.js') }}"></script>
 <form action="{{ path('question_update', { 'id': entity.id }) }}" method="post" {{ form_enctype(edit_form) }}>
     {{ form_widget(edit_form) }}
+            <div id="tempdiv"><div>
     <p>
         <button type="submit">Edit</button>
     </p>
@@ -19,4 +21,5 @@
             <button type="submit">Delete</button>
         </form>
     </li>
+    <li><a href="javascript:void(0);" onclick="javascript:addAnItem('tempdiv','devlab_pollbundle_questiontype_reponses')">Add</a></li>
 </ul>

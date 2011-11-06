@@ -14,7 +14,7 @@ class Question {
 
 
     /**
-     * @ORM\ManyToMany(targetEntity="Reponse"),
+     * @ORM\ManyToMany(targetEntity="Reponse", cascade={"persist"}),
      */
     protected $reponses;
 

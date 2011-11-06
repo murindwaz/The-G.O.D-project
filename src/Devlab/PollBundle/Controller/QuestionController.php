@@ -5,6 +5,7 @@ namespace Devlab\PollBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Devlab\PollBundle\Entity\Reponse;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Devlab\PollBundle\Entity\Question;
 use Devlab\PollBundle\Form\QuestionType;
@@ -63,8 +64,8 @@ class QuestionController extends Controller
     public function newAction()
     {
         $entity = new Question();
+//        $entity->addReponse(new Reponse);
         $form   = $this->createForm(new QuestionType(), $entity);
-
         return array(
             'entity' => $entity,
             'form'   => $form->createView()
@@ -111,7 +112,7 @@ class QuestionController extends Controller
         $em = $this->getDoctrine()->getEntityManager();
 
         $entity = $em->getRepository('DevlabPollBundle:Question')->find($id);
-
+//        $entity->addReponse(new Reponse);
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Question entity.');
         }
