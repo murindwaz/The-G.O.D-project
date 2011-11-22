@@ -2,12 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Controller/DefaultController.php</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/DevlabPollBundle.php</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Resources/views/Default/index.html.twig</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Resources/views/Default/new.html.twig</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Tests/Controller/DefaultControllerTest.php</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Entity/Reponse.php</file>
-        <file>file:/home/themaster/workspace/evocatio/symfony/src/Devlab/PollBundle/Entity/Question.php</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Resources/public/js/base.js</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Resources/views/Question/new.html.twig</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Resources/views/Question/edit.html.twig</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Resources/views/Question/show.html.twig</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Resources/views/Question/index.html.twig</file>
+        <file>file:/home/themaster/workspace/evocatio/godproject/src/Devlab/PollBundle/Controller/QuestionController.php</file>
     </open-files>
 </project-private>
