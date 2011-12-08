@@ -2,61 +2,45 @@
 
 namespace Devlab\PollBundle\Tests\Controller;
 
+use Devlab\PollBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class QuestionControllerTest extends WebTestCase
 {
-        public function testIndex()
+    public function testQuestionNew()
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/question/6/show');
+        $crawler = $client->request('GET', '/question/new');
 
-        $this->assertTrue($crawler->filter('html:contains("Question 6")')->count() > 0);
+        $this->assertTrue($crawler->filter('h1:contains("Question")')->count() > 0);
     }
-    /*
-    public function testCompleteScenario()
+    public function testIndexAction()
     {
-        // Create a new client to browse the application
         $client = static::createClient();
 
-        // Create a new entry in the database
         $crawler = $client->request('GET', '/question/');
-        $this->assertTrue(200 === $client->getResponse()->getStatusCode());
-        $crawler = $client->click($crawler->selectLink('Create a new entry')->link());
 
-        // Fill in the form and submit it
-        $form = $crawler->selectButton('Create')->form(array(
-            'question[field_name]'  => 'Test',
-            // ... other fields to fill
-        ));
-
-        $client->submit($form);
-        $crawler = $client->followRedirect();
-
-        // Check data in the show view
-        $this->assertTrue($crawler->filter('td:contains("Test")')->count() > 0);
-
-        // Edit the entity
-        $crawler = $client->click($crawler->selectLink('Edit')->link());
-
-        $form = $crawler->selectButton('Edit')->form(array(
-            'question[field_name]'  => 'Foo',
-            // ... other fields to fill
-        ));
-
-        $client->submit($form);
-        $crawler = $client->followRedirect();
-
-        // Check the element contains an attribute with value equals "Foo"
-        $this->assertTrue($crawler->filter('[value="Foo"]')->count() > 0);
-
-        // Delete the entity
-        $client->submit($crawler->selectButton('Delete')->form());
-        $crawler = $client->followRedirect();
-
-        // Check the entity has been delete on the list
-        $this->assertNotRegExp('/Foo/', $client->getResponse()->getContent());
+		$result = 	$crawler->filter('html:contains("list")')->count() > 0 &&
+					$crawler->filter('a:contains("Create a new entry")')->count() == 1;
+        $this->assertTrue($result);
     }
-    */
+
+	public function testQuestionEdit()
+	{
+		$client = static::createClient();
+		
+		$crawler = $client->request('GET', '/question/1/edit');
+		
+		$this->assertTrue($crawler->filter('h1:contains("Question edit")')->count() == 1);
+	}
+	
+	public function testShowAction()
+	{
+		$client = static::createClient();
+		
+		$crawler = $client->request('GET', '/question/1/show');
+		
+		$this->assertTrue($crawler->filter('h1:contains("Question")')->count() == 1);
+	}
 }
