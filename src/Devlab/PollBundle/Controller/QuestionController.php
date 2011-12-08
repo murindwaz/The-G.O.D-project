@@ -5,7 +5,7 @@ namespace Devlab\PollBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Devlab\PollBundle\Entity\Reponse;
+//use Devlab\PollBundle\Entity\Reponse;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Devlab\PollBundle\Entity\Question;
 use Devlab\PollBundle\Form\QuestionType;
@@ -48,11 +48,19 @@ class QuestionController extends Controller
             throw $this->createNotFoundException('Unable to find Question entity.');
         }
 
+        $permutations = $this->get('devlab_poll.permutations');
+
         $deleteForm = $this->createDeleteForm($id);
 
+         $perms =   $permutations->availables($entity->getReponses()->toArray());
+         $permsMixte = $perms;
+         shuffle($permsMixte);
         return array(
+            'permut' => $perms,
+            'permutMixed' => $permsMixte,
             'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),        );
+            'delete_form' => $deleteForm->createView()
+            );
     }
 
     /**

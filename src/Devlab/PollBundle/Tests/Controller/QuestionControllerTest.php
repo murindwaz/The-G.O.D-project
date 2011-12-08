@@ -6,6 +6,14 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class QuestionControllerTest extends WebTestCase
 {
+        public function testIndex()
+    {
+        $client = static::createClient();
+
+        $crawler = $client->request('GET', '/question/6/show');
+
+        $this->assertTrue($crawler->filter('html:contains("Question 6")')->count() > 0);
+    }
     /*
     public function testCompleteScenario()
     {

@@ -1,17 +1,10 @@
  {% extends '::base.html.twig' %}
-
- {% block right %}
-     Hello {{ entity.id }}!
- {% endblock %}
-
-
  {% block body %}
 <h1>Question edit</h1>
 <link href="{{ asset('bundles/devlabpoll/css/base.css') }}" type="text/css" rel="stylesheet" />
 <script src="{{ asset('bundles/devlabpoll/js/base.js') }}"></script>
 <form action="{{ path('question_update', { 'id': entity.id }) }}" method="post" {{ form_enctype(edit_form) }}>
     {{ form_widget(edit_form) }}
-            <div id="tempdiv"><div>
     <p>
         <button type="submit">Edit</button>
     </p>
@@ -30,5 +23,39 @@
         </form>
     </li>
     <li><a href="javascript:void(0);" onclick="javascript:addAnItem('devlab_pollbundle_questiontype_reponses')">Add</a></li>
+
 </ul>
+ {% endblock %}
+
+ {% block right %}
+ <p>The by-reference is set to true you don't need an extra setReponses in question, if to false, you will need it</p>
+
+ <p>
+     The magic happens in QuestionType
+ <pre>    public function buildForm(FormBuilder $builder, array $options)
+    {
+        $builder
+            ->add('text')
+            ->add('reponses', 'collection', array(
+                    'type' => new ReponseType(),
+                    'allow_add' => true,
+                    'prototype' => true,
+                    // Post update
+                    'by_reference' => true,
+                    ))
+        ;
+    }
+</pre>
+</p>
+<p>
+<pre>
+
+     BTW, it is better to use delegate instead of live on jquery
+
+$(".record_actions").delegate("a.jslink", "click", function(event){
+event.preventDefault();
+add();
+});
+</pre>
+</p>
  {% endblock %}

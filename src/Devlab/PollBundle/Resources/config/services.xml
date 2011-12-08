@@ -17,4 +17,9 @@
         </service>
     </services>
     -->
+    <services>
+        <service id="devlab_poll.permutations" class="Devlab\PollBundle\Permutator\Permutations">
+            <argument>plain_value</argument>
+        </service>
+    </services>
 </container>
