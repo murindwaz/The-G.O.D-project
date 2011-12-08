@@ -1,5 +1,7 @@
-<h1>Question list</h1>
-
+ {% extends '::base.html.twig' %}
+ {% block body %}
+<link href="{{ asset('bundles/devlabpoll/css/base.css') }}" type="text/css" rel="stylesheet" />
+ <h1>Question list</h1>
 <table class="records_list">
     <thead>
         <tr>
@@ -35,3 +37,7 @@
         </a>
     </li>
 </ul>
+ {% endblock %}
+ {% block right %}
+    test right
+ {% endblock %}

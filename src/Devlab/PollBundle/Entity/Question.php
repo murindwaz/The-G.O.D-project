@@ -85,13 +85,13 @@ class Question {
         return $this->reponses;
     }
 
-    /**
-     * Set reponses
-     *
-     * @param ArrayCollection
-     */
-    public function setReponses($reponsesCollection)
-    {
-        $this->reponses = $reponsesCollection;
-    }
+//    /**
+//     * Set reponses
+//     *
+//     * @param ArrayCollection
+//     */
+//    public function setReponses($reponsesCollection)
+//    {
+//        $this->reponses = $reponsesCollection;
+//    }
 }

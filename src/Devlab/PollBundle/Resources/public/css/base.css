@@ -14,6 +14,11 @@
 root { 
     display: block;
 }
+#right { float: left; width: 50%;}
+#left { float: left; width: 50%;}
+/*.record_properties, td , th { border: 3px solid red; }*/
+
+
 /*div {
     background-color: blue;
 }*/

@@ -14,7 +14,7 @@ class Question {
 
 
     /**
-     * @ORM\ManyToMany(targetEntity="Reponse"),
+     * @ORM\ManyToMany(targetEntity="Reponse", cascade={"persist"}),
      */
     protected $reponses;
 
@@ -64,4 +64,34 @@ class Question {
 
 
 
+
+    /**
+     * Add reponses
+     *
+     * @param Devlab\PollBundle\Entity\Reponse $reponses
+     */
+    public function addReponse(\Devlab\PollBundle\Entity\Reponse $reponses)
+    {
+        $this->reponses[] = $reponses;
+    }
+
+    /**
+     * Get reponses
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getReponses()
+    {
+        return $this->reponses;
+    }
+
+//    /**
+//     * Set reponses
+//     *
+//     * @param ArrayCollection
+//     */
+//    public function setReponses($reponsesCollection)
+//    {
+//        $this->reponses = $reponsesCollection;
+//    }
 }
